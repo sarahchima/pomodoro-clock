@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container text-center">
+  <h1>Pomodoro Clock </h2>
+  
+  <p> ... get more productive</p>
+   <div class = "changes">
+      <h4> Break Time</h4>
+     <h4> Work Time</h4>
+  </div>
+  <div class = "change_box">  
+  <div id = "break" class = "change">
+       <button class = "subtract btn btn-primary">-</button>
+       <div id = "breakTens">0</div>
+       <div id = "breakUnit">5</div>
+       <button class = " add btn btn-primary">+</button>
+    </div>
+  <div id  = "work" class = "change">
+       <button class = "subtract btn btn-primary">-</button>
+       <div id = "workTens">2</div>
+       <div id = "workUnit">5</div>
+       <button class = " add btn btn-primary">+</button>
+     </div>
+  </div>
+  <h3 class = "text-center hidden" id = "status">Work Time</h3>
+ <div class = "countdown well">
+   <div id = "hours" class = "hidden">
+     <div id = "hourTens">0</div>
+     <div id = "hourUnits">0</div>
+   </div>
+   <div id = "minutes">
+     <div id = "minTens">0</div>
+     <div id = "minUnits">0</div>
+   </div>
+   <div id = "seconds">
+     <div id = "secTens">0</div>
+     <div id = "secUnits">0</div>
+   </div>
+    
+  </div> 
+
+  <div class = "control">
+     <button class = "btn btn-primary glyphicon glyphicon-play-circle" id = "start"> Start</button>
+     <button class = "btn btn-primary glyphicon glyphicon-pause hidden" id = "pause"> Pause</button>
+     <button class = "btn btn-primary glyphicon glyphicon-refresh" id = "reset"> Reset</button>
+  </div> 
+ 
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

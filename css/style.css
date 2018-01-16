@@ -1,0 +1,77 @@
+
+.container{
+  max-width: 600px;
+  border: solid 4px #404040;
+  font-family: cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #2E2801;
+  color: white;
+}
+h1{
+  font-size: 60px;
+}
+.changes{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.change_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.change{
+  display: flex;
+  margin: 1px;
+  flex-direction: row;
+  justify-content: center;
+}
+.change div{
+  width: 50px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  margin: 1px;
+  text-align: center;
+}
+.countdown{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #2E2801;
+  border: 0px;
+  margin-top: 30px;
+}
+.countdown div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin: 2px;
+ 
+}
+.countdown div div{
+  width: 80px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  margin: 1px;
+  font-size: 100px;
+  justify-content: center;
+  
+}
+.btn-primary{
+  background-color: #404040;
+  border: #404040;
+}
+.hidden{
+  display: none;
+}
+.control .button{
+  font-size:  14px
+}
+#breakStatus{
+  margin-top: 30px;
+}
